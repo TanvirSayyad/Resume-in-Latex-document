@@ -6,12 +6,25 @@
 \usepackage{xcolor}
 \usepackage{fontawesome5}
 \usepackage[hidelinks]{hyperref}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{everypage}
 
 % Define el color verde olivo
-\definecolor{verdeolivo}{RGB}{85,107,47} % Puedes ajustar estos valores según tus preferencias
+\definecolor{verdeolivo}{RGB}{85,107,47}
 
+% Configuración de los títulos de sección y subsección
 \titleformat{\section}{\large\bfseries\color{verdeolivo}}{}{0em}{}[\titlerule]
-\titleformat{\subsection}[runin]{\bfseries\color{verdeolivo}}{}{0em}{}[:]
+\titleformat{\subsection}[runin]{\bfseries}{}{0em}{}[:]
+
+% Define a command to draw the border on every page
+\AddEverypageHook{
+    \begin{tikzpicture}[remember picture, overlay]
+        \draw[black, very thick] 
+            ($(current page.north west) + (1cm,-1cm)$) rectangle 
+            ($(current page.south east) + (-1cm,1cm)$);
+    \end{tikzpicture}
+}
 
 \begin{document}
 
@@ -46,6 +59,7 @@
 
 
 \space
+
 \section*{\faIcon{user} Professional Profile}
 Currently working and gaining experience in backend application development and production support. Extensively involved in API testing, reviewing and debugging Java code. Skilled in resolving issues, debugging applications, and managing production support cases. Proficient in SQL programming, creating tables, views, procedures, and functions. Effective in using tools like CDET for bug tracking and resolution. Additionally, holds a CCNA certification with a strong foundation in networking concepts. 
 
@@ -70,16 +84,6 @@ SORA/SLM is a portal that generates reports on networking devices, including new
     \item SQL Queries: Wrote efficient SQL queries with necessary join conditions for good performance.
 \end{itemize}
 
-\section*{\faIcon{graduation-cap} Education}
-
-\subsection*{\textbf{B.E (CSE)} - S.B Patil College of Engineering Indapur\hfill 2022}
-\textit{Percentage: 70.8\%}
-
-\subsection*{\textbf{Intermediate} - ShankarRao Mohite Mahavidyalaya Akluj\hfill 2018}
-\textit{Percentage: 56.46\%}
-
-\subsection*{\textbf{SSC} - Chaitanya Vidyalaya Nira-Narsinhpur\hfill 2016}
-\textit{Percentage: 82\%}
 
 
 \section*{\faIcon{cogs} Technical Skills}
@@ -88,17 +92,32 @@ SORA/SLM is a portal that generates reports on networking devices, including new
         \item Core Java (OOPS Concepts, Exception Handling, Collections, Multithreading) \hfill (\faStar\faStar\faStar\faStar\faStar)
         \item MySQL, TODO Oracle \hfill (\faStar\faStar\faStar\faStar\faStar)
         \item Advanced Java (JSP, Servlet, JDBC, Spring Boot) \hfill (\faStar\faStar\faStar\faStar)
+        \item Linux operating systems \hfill (\faStar\faStar\faStar\faStar)
+        \item Basic Python \hfill (\faStar\faStar\faStar\faStar)
         \item Jira Software \hfill (\faStar\faStar\faStar\faStar)
         \item HTML, CSS, PHP, JavaScript \hfill (\faStar\faStar\faStar)
     \end{itemize}
 \end{center}
 
+\section*{\faIcon{wrench} Handson Tools}
+\begin{center}
+    \begin{itemize}[label=\faIcon{toolbox}, itemsep=-3pt]
+        \item Eclipse IDE
+        \item Apache Tomcat
+        \item Visual Studio Code
+        \item JIRA
+        \item TODO Oracle
+        \item Packet tracer
+        \item Putty
+    \end{itemize}
+\end{center}
 
 \section*{\faIcon{certificate} Certifications}
 \begin{itemize}[label=\faIcon{certificate}]
     \item Cisco Certified Network Associate (CCNA) \hfill 2024
-    \item Java Full Stack Development \hfill 2023
     \item Personality Development \hfill 2024
+    \item Java Full Stack Development \hfill 2023
+    \item Core PHP And Laravel \hfill 2022
 \end{itemize}
 
 \section*{\faIcon{graduation-cap} Education}
@@ -111,19 +130,20 @@ SORA/SLM is a portal that generates reports on networking devices, including new
 
 \subsection*{\textbf{SSC} - Chaitanya Vidyalaya Nira-Narsinhpur\hfill 2016}
 \textit{Percentage: 82\%}
+
 \section*{\faIcon{graduation-cap} Academic Project}
 
 \textbf{E-Pass Generation System using OCR Algorithm (2022)}
 
 The E-Pass Generation System manages all records of passes issued by the administration and provides online e-passes for people who need to travel for essential purposes.
 
-\textbf{Technologies Used:} \textbf{Java, MySQL, JDBC, JSP Server}.
+\textbf{Technologies Used:} Java, MySQL, JDBC, JSP Server.
+
 \section*{\faIcon{language} Languages}
 \begin{itemize}[label=\faIcon{globe}]
     \item English \hfill (\faStar\faStar\faStar\faStar)
     \item Hindi \hfill (\faStar\faStar\faStar\faStar\faStar)
     \item Marathi \hfill (\faStar\faStar\faStar\faStar\faStar)
 \end{itemize}
-
 
 \end{document}
