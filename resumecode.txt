@@ -1,0 +1,129 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\usepackage[hidelinks]{hyperref}
+
+% Define el color verde olivo
+\definecolor{verdeolivo}{RGB}{85,107,47} % Puedes ajustar estos valores según tus preferencias
+
+\titleformat{\section}{\large\bfseries\color{verdeolivo}}{}{0em}{}[\titlerule]
+\titleformat{\subsection}[runin]{\bfseries\color{verdeolivo}}{}{0em}{}[:]
+
+\begin{document}
+
+\pagestyle{empty}
+
+%\section*{\faIcon{address-card} Contact Information}
+\begin{center}
+    \textbf{\Huge Tanvir Sayyad} \\
+    \vspace{2mm}
+    \faIcon{briefcase} Software Engineer
+\end{center}
+
+\vspace{4mm}
+
+
+\vspace{1mm}
+\begin{center}
+    \faIcon{phone} \href{tel:+918788900691}{+91 8788900691} \hspace{1cm}
+    \faIcon{envelope} \href{mailto:sayyadtanvir88@gmail.com}{sayyadtanvir88@gmail.com} \hspace{1cm}
+    \framebox{
+        \begin{minipage}{0.25\textwidth}
+            \faIcon{linkedin} \href{https://www.linkedin.com/in/tanvir-sayyad-a2155a22a/}{LinkedIn} \\
+            \faIcon{github} \href{https://github.com/TanvirSayyad}{GitHub}
+        \end{minipage}
+    }
+\end{center}
+
+\vspace{1mm}
+\begin{center}
+    \faIcon{map-marker-alt} Kadubeesanahalli, Bengaluru 560103, India
+\end{center}
+
+
+\space
+\section*{\faIcon{user} Professional Profile}
+Currently working and gaining experience in backend application development and production support. Extensively involved in API testing, reviewing and debugging Java code. Skilled in resolving issues, debugging applications, and managing production support cases. Proficient in SQL programming, creating tables, views, procedures, and functions. Effective in using tools like CDET for bug tracking and resolution. Additionally, holds a CCNA certification with a strong foundation in networking concepts. 
+
+\section*{\faIcon{building} Work Experience}
+
+\subsection*{Cisco Systems, Inc. (SEZ Unit Bangalore)\hfill Nov 2023 - current}
+\textit{Software Engineer}
+\begin{itemize}
+    \item Practiced on switching, routing, VLAN, IPv4, IPv6, and other networking concepts.
+    \item Completed CCNA training and qualified CCNA exam.
+    \item Understanding of Implementation of software development and database fundamentals through agile.
+\end{itemize}
+
+\subsubsection*{Team Project 1: SORA/SLM CISCO}
+SORA/SLM is a portal that generates reports on networking devices, including new features, contract details, and bugs, helping customers decide on software upgrades. It also enables contacting the TAC team and provides email alerts about upcoming software changes.
+\begin{itemize}
+    \item CDET Tool: Used bug IDs to find and validate issues, and raised JIRA tickets for the development team.
+    \item Bug Fixing Tools: Worked with various tools to track and fix bugs.
+    \item Production Support: Resolved issues and answered user questions through investigation, research, and debugging.
+    \item Modules Involvement: Worked on coding, testing, and fixing bugs in production support cases.
+    \item SQL Database Programming: Created tables, views, stored procedures, and functions as needed.
+    \item SQL Queries: Wrote efficient SQL queries with necessary join conditions for good performance.
+\end{itemize}
+
+\section*{\faIcon{graduation-cap} Education}
+
+\subsection*{\textbf{B.E (CSE)} - S.B Patil College of Engineering Indapur\hfill 2022}
+\textit{Percentage: 70.8\%}
+
+\subsection*{\textbf{Intermediate} - ShankarRao Mohite Mahavidyalaya Akluj\hfill 2018}
+\textit{Percentage: 56.46\%}
+
+\subsection*{\textbf{SSC} - Chaitanya Vidyalaya Nira-Narsinhpur\hfill 2016}
+\textit{Percentage: 82\%}
+
+
+\section*{\faIcon{cogs} Technical Skills}
+\begin{center}
+    \begin{itemize}[label=\faIcon{check}, itemsep=-3pt]
+        \item Core Java (OOPS Concepts, Exception Handling, Collections, Multithreading) \hfill (\faStar\faStar\faStar\faStar\faStar)
+        \item MySQL, TODO Oracle \hfill (\faStar\faStar\faStar\faStar\faStar)
+        \item Advanced Java (JSP, Servlet, JDBC, Spring Boot) \hfill (\faStar\faStar\faStar\faStar)
+        \item Jira Software \hfill (\faStar\faStar\faStar\faStar)
+        \item HTML, CSS, PHP, JavaScript \hfill (\faStar\faStar\faStar)
+    \end{itemize}
+\end{center}
+
+
+\section*{\faIcon{certificate} Certifications}
+\begin{itemize}[label=\faIcon{certificate}]
+    \item Cisco Certified Network Associate (CCNA) \hfill 2024
+    \item Java Full Stack Development \hfill 2023
+    \item Personality Development \hfill 2024
+\end{itemize}
+
+\section*{\faIcon{graduation-cap} Education}
+
+\subsection*{\textbf{B.E (CSE)} - S.B Patil College of Engineering Indapur\hfill 2022}
+\textit{Percentage: 70.8\%}
+
+\subsection*{\textbf{Intermediate} - ShankarRao Mohite Mahavidyalaya Akluj\hfill 2018}
+\textit{Percentage: 56.46\%}
+
+\subsection*{\textbf{SSC} - Chaitanya Vidyalaya Nira-Narsinhpur\hfill 2016}
+\textit{Percentage: 82\%}
+\section*{\faIcon{graduation-cap} Academic Project}
+
+\textbf{E-Pass Generation System using OCR Algorithm (2022)}
+
+The E-Pass Generation System manages all records of passes issued by the administration and provides online e-passes for people who need to travel for essential purposes.
+
+\textbf{Technologies Used:} \textbf{Java, MySQL, JDBC, JSP Server}.
+\section*{\faIcon{language} Languages}
+\begin{itemize}[label=\faIcon{globe}]
+    \item English \hfill (\faStar\faStar\faStar\faStar)
+    \item Hindi \hfill (\faStar\faStar\faStar\faStar\faStar)
+    \item Marathi \hfill (\faStar\faStar\faStar\faStar\faStar)
+\end{itemize}
+
+
+\end{document}
