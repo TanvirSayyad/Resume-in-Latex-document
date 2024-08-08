@@ -33,11 +33,11 @@
 
 \begin{center}
     \textbf{\Huge Tanvir Sayyad} \\
-    \vspace{2mm}
+    \vspace{1mm}
     \faIcon{briefcase} Software Engineer
 \end{center}
 
-\vspace{4mm}
+\vspace{2mm}
 
 \begin{center}
     \faIcon{phone} \href{tel:+918788900691}{+91 8788900691} \hspace{1cm}
@@ -62,23 +62,29 @@ Currently working and gaining experience in backend application development and 
 
 \subsection*{Cisco Systems, Inc. (SEZ Unit Bangalore)\hfill Nov 2023 - current}
 \textit{Software Engineer}
-\begin{itemize}[leftmargin=0.5cm]
+
+\begin{itemize}[leftmargin=0.5cm, itemsep=1pt]
+    \item \textbf{Practiced on Switching, Routing, VLAN, IPv4, IPv6}.
+    \item \textbf{Completed CCNA training} and qualified \textbf{CCNA exam}.
+    \item Worked on a portal that generates reports on networking devices, including new features, contract details, and bugs, helping customers decide on software upgrades. It also enables contacting the TAC team and provides email alerts about upcoming software changes.
     \item \textbf{Diagnose}, prioritize, and resolve \textbf{technical issues and bugs} reported by clients or internal teams.
-    \item Utilized various Cisco \textbf{networking tools} to resolve technical issues and bugs.
+    \item Utilized various Cisco \textbf{Networking tools} to resolve technical issues and bugs.
     \item \textbf{CDET Tool}: Used bug IDs to find and validate issues, and raised \textbf{JIRA tickets} for the development team.
     \item \textbf{Bug Fixing Tools}: Worked with various tools to track and fix bugs.
     \item Participate in the entire application lifecycle, focusing on \textbf{Coding and debugging}.
     \item \textbf{Production Support}: Resolved issues and answered user questions through investigation, research, and debugging.
     \item Developed and deployed \textbf{high-quality code}.
-    \item Integrated \textbf{Spring Boot} with various databases (e.g., MySQL, Oracle) to manage data persistence effectively.
+    \item Integrated \textbf{Spring Boot} with various databases (e.g.MySQL, Oracle) to manage data persistence effectively.
     \item Created and managed \textbf{RESTful APIs} for various internal and external applications, ensuring robust and secure communication between services.
     \item Utilized tools such as \textbf{Postman} and \textbf{Swagger} for API testing and documentation, facilitating clear communication with front-end developers and stakeholders.
-    \item Worked on \textbf{advanced object-oriented design} and development principles.
-    \item Experience in \textbf{Unix-based development environment} is a plus.
-    \item Modules Involvement: Worked on \textbf{coding}, \textbf{testing}, and fixing \textbf{bugs} in \textbf{production support} cases.
+    \item Worked on \textbf{Advanced Object-Oriented Design} and development principles.
+    \item Experience in \textbf{Unix/Linux-based development environment} is a plus.
+    \item Modules Involvement: Worked on \textbf{Coding}, \textbf{Testing}, and fixing \textbf{bugs} in \textbf{production support} cases.
     \item \textbf{SQL Database Programming}: Created \textbf{tables}, \textbf{views}, \textbf{stored procedures}, and \textbf{functions} as needed.
     \item \textbf{SQL Queries}: Wrote efficient SQL queries with necessary join conditions for good performance.
 \end{itemize}
+
+\newpage % Start a new page for the Technical Skills section
 
 \section*{\faIcon{cogs} Technical Skills}
 \begin{itemize}[label=\faIcon{check}, leftmargin=0.5cm, itemsep=3pt]
@@ -123,12 +129,12 @@ Currently working and gaining experience in backend application development and 
 
 \section*{\faIcon{graduation-cap} Education}
 
-\subsection*{B.E (CSE) - S.B Patil College of Engineering Indapur\hfill 2022}
+\subsection*{B.E (CSE) - S.B Patil College of Engineering Indapur Pune Maharashtra   \hfill2022}
 \textit{Percentage: 70.8\%}
 
 \section*{\faIcon{graduation-cap} Academic Project}
 
-E-Pass Generation System using OCR Algorithm (2022)
+\textbf{E-Pass Generation System using OCR Algorithm (2022)}
 
 The E-Pass Generation System manages all records of passes issued by the administration and provides online e-passes for people who need to travel for essential purposes.
 
