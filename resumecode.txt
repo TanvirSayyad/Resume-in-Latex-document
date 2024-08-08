@@ -9,6 +9,7 @@
 \usepackage{tikz}
 \usetikzlibrary{calc}
 \usepackage{everypage}
+\usepackage{multicol} % For multi-column layout
 
 % Define el color verde olivo
 \definecolor{verdeolivo}{RGB}{85,107,47}
@@ -30,7 +31,6 @@
 
 \pagestyle{empty}
 
-%\section*{\faIcon{address-card} Contact Information}
 \begin{center}
     \textbf{\Huge Tanvir Sayyad} \\
     \vspace{2mm}
@@ -39,8 +39,6 @@
 
 \vspace{4mm}
 
-
-\vspace{1mm}
 \begin{center}
     \faIcon{phone} \href{tel:+918788900691}{+91 8788900691} \hspace{1cm}
     \faIcon{envelope} \href{mailto:sayyadtanvir88@gmail.com}{sayyadtanvir88@gmail.com} \hspace{1cm}
@@ -57,93 +55,90 @@
     \faIcon{map-marker-alt} Kadubeesanahalli, Bengaluru 560103, India
 \end{center}
 
-
-\space
-
 \section*{\faIcon{user} Professional Profile}
-Currently working and gaining experience in backend application development and production support. Extensively involved in API testing, reviewing and debugging Java code. Skilled in resolving issues, debugging applications, and managing production support cases. Proficient in SQL programming, creating tables, views, procedures, and functions. Effective in using tools like CDET for bug tracking and resolution. Additionally, holds a CCNA certification with a strong foundation in networking concepts. 
+Currently working and gaining experience in backend application development and production support. Extensively involved in \textbf{API testing}, reviewing and debugging \textbf{Java code}. Skilled in resolving issues, debugging applications, and managing production support cases. Proficient in \textbf{SQL programming}, creating tables, views, procedures, and functions. Effective in using tools like \textbf{CDET} for bug tracking and resolution. Additionally, holds a \textbf{CCNA} certification with a strong foundation in \textbf{networking concepts}.
 
 \section*{\faIcon{building} Work Experience}
 
 \subsection*{Cisco Systems, Inc. (SEZ Unit Bangalore)\hfill Nov 2023 - current}
 \textit{Software Engineer}
-\begin{itemize}
-    \item Practiced on switching, routing, VLAN, IPv4, IPv6, and other networking concepts.
-    \item Completed CCNA training and qualified CCNA exam.
-    \item Understanding of Implementation of software development and database fundamentals through agile.
+\begin{itemize}[leftmargin=0.5cm]
+    \item \textbf{Diagnose}, prioritize, and resolve \textbf{technical issues and bugs} reported by clients or internal teams.
+    \item Utilized various Cisco \textbf{networking tools} to resolve technical issues and bugs.
+    \item \textbf{CDET Tool}: Used bug IDs to find and validate issues, and raised \textbf{JIRA tickets} for the development team.
+    \item \textbf{Bug Fixing Tools}: Worked with various tools to track and fix bugs.
+    \item Participate in the entire application lifecycle, focusing on \textbf{Coding and debugging}.
+    \item \textbf{Production Support}: Resolved issues and answered user questions through investigation, research, and debugging.
+    \item Developed and deployed \textbf{high-quality code}.
+    \item Integrated \textbf{Spring Boot} with various databases (e.g., MySQL, Oracle) to manage data persistence effectively.
+    \item Created and managed \textbf{RESTful APIs} for various internal and external applications, ensuring robust and secure communication between services.
+    \item Utilized tools such as \textbf{Postman} and \textbf{Swagger} for API testing and documentation, facilitating clear communication with front-end developers and stakeholders.
+    \item Worked on \textbf{advanced object-oriented design} and development principles.
+    \item Experience in \textbf{Unix-based development environment} is a plus.
+    \item Modules Involvement: Worked on \textbf{coding}, \textbf{testing}, and fixing \textbf{bugs} in \textbf{production support} cases.
+    \item \textbf{SQL Database Programming}: Created \textbf{tables}, \textbf{views}, \textbf{stored procedures}, and \textbf{functions} as needed.
+    \item \textbf{SQL Queries}: Wrote efficient SQL queries with necessary join conditions for good performance.
 \end{itemize}
-
-\subsubsection*{Team Project 1: SORA/SLM CISCO}
-SORA/SLM is a portal that generates reports on networking devices, including new features, contract details, and bugs, helping customers decide on software upgrades. It also enables contacting the TAC team and provides email alerts about upcoming software changes.
-\begin{itemize}
-    \item CDET Tool: Used bug IDs to find and validate issues, and raised JIRA tickets for the development team.
-    \item Bug Fixing Tools: Worked with various tools to track and fix bugs.
-    \item Production Support: Resolved issues and answered user questions through investigation, research, and debugging.
-    \item Modules Involvement: Worked on coding, testing, and fixing bugs in production support cases.
-    \item SQL Database Programming: Created tables, views, stored procedures, and functions as needed.
-    \item SQL Queries: Wrote efficient SQL queries with necessary join conditions for good performance.
-\end{itemize}
-
-
 
 \section*{\faIcon{cogs} Technical Skills}
-\begin{center}
-    \begin{itemize}[label=\faIcon{check}, itemsep=-3pt]
-        \item Core Java (OOPS Concepts, Exception Handling, Collections, Multithreading) \hfill (\faStar\faStar\faStar\faStar\faStar)
-        \item MySQL, TODO Oracle \hfill (\faStar\faStar\faStar\faStar\faStar)
-        \item Advanced Java (JSP, Servlet, JDBC, Spring Boot) \hfill (\faStar\faStar\faStar\faStar)
-        \item Linux operating systems \hfill (\faStar\faStar\faStar\faStar)
-        \item Basic Python \hfill (\faStar\faStar\faStar\faStar)
-        \item Jira Software \hfill (\faStar\faStar\faStar\faStar)
-        \item HTML, CSS, PHP, JavaScript \hfill (\faStar\faStar\faStar)
-    \end{itemize}
-\end{center}
+\begin{itemize}[label=\faIcon{check}, leftmargin=0.5cm, itemsep=3pt]
+    \item Core Java (\textbf{OOPS Concepts}, \textbf{Exception Handling}, \textbf{Collections}, \textbf{Multithreading}) 
+    \item MySQL, \textbf{Oracle} 
+    \item Advanced Java (\textbf{JSP}, \textbf{Servlet}, \textbf{JDBC}, \textbf{Spring Boot}) 
+    \item \textbf{Linux operating systems} 
+    \item Basic \textbf{Python} 
+    \item \textbf{Jira Software} 
+    \item \textbf{HTML}, \textbf{CSS}, \textbf{PHP}, \textbf{JavaScript}
+\end{itemize}
 
-\section*{\faIcon{wrench} Handson Tools}
-\begin{center}
-    \begin{itemize}[label=\faIcon{toolbox}, itemsep=-3pt]
+\section*{\faIcon{wrench} Technical Tools}
+\begin{multicols}{4}
+    \begin{itemize}[label=\faIcon{toolbox}, left=0pt, labelsep=1em, itemsep=0.5em]
         \item Eclipse IDE
         \item Apache Tomcat
-        \item Visual Studio Code
+    \end{itemize}
+    \begin{itemize}[label=\faIcon{toolbox}, left=0pt, labelsep=1em, itemsep=0.5em]
+        \item Visual Studio
+        \item Postman
+    \end{itemize}
+    \begin{itemize}[label=\faIcon{toolbox}, left=0pt, labelsep=1em, itemsep=0.5em]
         \item JIRA
-        \item TODO Oracle
-        \item Packet tracer
+        \item Todo Oracle
+    \end{itemize}
+    \begin{itemize}[label=\faIcon{toolbox}, left=0pt, labelsep=1em, itemsep=0.5em]
+        \item Packet Tracer
         \item Putty
     \end{itemize}
-\end{center}
+\end{multicols}
 
 \section*{\faIcon{certificate} Certifications}
-\begin{itemize}[label=\faIcon{certificate}]
-    \item Cisco Certified Network Associate (CCNA) \hfill 2024
-    \item Personality Development \hfill 2024
-    \item Java Full Stack Development \hfill 2023
-    \item Core PHP And Laravel \hfill 2022
+\begin{itemize}[label=\faIcon{certificate}, leftmargin=0.5cm, itemsep=3pt]
+    \item \textbf{Cisco Certified Network Associate (CCNA)} \hfill 2024
+    \item \textbf{Java Full Stack Development} \hfill 2023
+    \item \textbf{Linux Essentials English 0724} \hfill 2024
+    \item \textbf{Personality Development} \hfill 2024
+    \item \textbf{Cybersecurity And Cyber Threat Management} \hfill 2024
+    \item \textbf{Core PHP and Laravel} \hfill 2022
 \end{itemize}
 
 \section*{\faIcon{graduation-cap} Education}
 
-\subsection*{\textbf{B.E (CSE)} - S.B Patil College of Engineering Indapur\hfill 2022}
+\subsection*{B.E (CSE) - S.B Patil College of Engineering Indapur\hfill 2022}
 \textit{Percentage: 70.8\%}
-
-\subsection*{\textbf{Intermediate} - ShankarRao Mohite Mahavidyalaya Akluj\hfill 2018}
-\textit{Percentage: 56.46\%}
-
-\subsection*{\textbf{SSC} - Chaitanya Vidyalaya Nira-Narsinhpur\hfill 2016}
-\textit{Percentage: 82\%}
 
 \section*{\faIcon{graduation-cap} Academic Project}
 
-\textbf{E-Pass Generation System using OCR Algorithm (2022)}
+E-Pass Generation System using OCR Algorithm (2022)
 
 The E-Pass Generation System manages all records of passes issued by the administration and provides online e-passes for people who need to travel for essential purposes.
 
-\textbf{Technologies Used:} Java, MySQL, JDBC, JSP Server.
+\textbf{Technologies Used:} \textbf{Java}, \textbf{MySQL}, \textbf{JDBC}, \textbf{JSP Server}.
 
 \section*{\faIcon{language} Languages}
-\begin{itemize}[label=\faIcon{globe}]
-    \item English \hfill (\faStar\faStar\faStar\faStar)
-    \item Hindi \hfill (\faStar\faStar\faStar\faStar\faStar)
-    \item Marathi \hfill (\faStar\faStar\faStar\faStar\faStar)
+\begin{itemize}[label=\faIcon{globe}, leftmargin=0.5cm, itemsep=3pt]
+    \item English
+    \item Hindi
+    \item Marathi
 \end{itemize}
 
 \end{document}
