@@ -4,6 +4,7 @@
 \usepackage{titlesec}
 \usepackage{parskip}
 \usepackage{xcolor}
+\usepackage{graphicx} % For including images
 \usepackage{fontawesome5}
 \usepackage[hidelinks]{hyperref}
 \usepackage{multicol}
@@ -71,13 +72,12 @@ Dynamic \textbf{Software Engineer} with expertise in \textbf{Java} and \textbf{C
 \end{multicols}
 
 \section*{\faIcon{certificate} Certifications}
-\begin{itemize}[label=\faIcon{certificate}, left=0pt, itemsep=3pt]
- \item \textbf{Java Full Stack Development} \hfill 2023
- \item \textbf{Certified Microsoft Azure DevOps}\hfill 2023
-    \item \textbf{Cisco Certified Network Associate (CCNA-Global)} \hfill 2024
-   
-    \item \textbf{Linux Essentials English 0724} \hfill 2024
-    
+\renewcommand{\labelitemi}{} % Remove bullet points
+\begin{itemize}[left=0pt, itemsep=3pt]
+    \item \includegraphics[width=0.5cm]{ccna.png} \textbf{Cisco Certified Network Associate (CCNA-Global)} \hfill 2024
+    \item \includegraphics[width=0.5cm]{azure.png} \textbf{Certified Microsoft Azure DevOps} \hfill 2023
+    \item \includegraphics[width=0.5cm]{java.png} \textbf{Java Full Stack Development} \hfill 2023
+    \item \faIcon{linux} \textbf{Linux Essentials English 0724} \hfill 2024
 \end{itemize}
 
 \section*{\faIcon{graduation-cap} Education}
