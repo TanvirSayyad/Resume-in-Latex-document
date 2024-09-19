@@ -1,31 +1,18 @@
-\documentclass[a4paper,10pt]{article}
-\usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry}
+\documentclass[a4paper,9pt]{article}
+\usepackage[left=0.7in, right=0.7in, top=0.7in, bottom=0.7in]{geometry}
 \usepackage{enumitem}
 \usepackage{titlesec}
 \usepackage{parskip}
 \usepackage{xcolor}
 \usepackage{fontawesome5}
 \usepackage[hidelinks]{hyperref}
-\usepackage{tikz}
-\usetikzlibrary{calc}
-\usepackage{everypage}
-\usepackage{multicol} % For multi-column layout
+\usepackage{multicol}
 
-% Define el color verde olivo
 \definecolor{verdeolivo}{RGB}{85,107,47}
 
-% Configuración de los títulos de sección y subsección
+% Section formatting
 \titleformat{\section}{\large\bfseries\color{verdeolivo}}{}{0em}{}[\titlerule]
 \titleformat{\subsection}[runin]{\bfseries}{}{0em}{}[:]
-
-% Define a command to draw the border on every page
-\AddEverypageHook{
-    \begin{tikzpicture}[remember picture, overlay]
-        \draw[black, very thick] 
-            ($(current page.north west) + (1cm,-1cm)$) rectangle 
-            ($(current page.south east) + (-1cm,1cm)$);
-    \end{tikzpicture}
-}
 
 \begin{document}
 
@@ -34,117 +21,71 @@
 \begin{center}
     \textbf{\Huge Tanvir Sayyad} \\
     \vspace{1mm}
-    \faIcon{briefcase} Software Engineer
+    \faIcon{briefcase} \textbf{Software Engineer}
 \end{center}
 
 \vspace{2mm}
 
 \begin{center}
-    \faIcon{phone} \href{tel:+918788900691}{+91 8788900691} \hspace{1cm}
-    \faIcon{envelope} \href{mailto:sayyadtanvir88@gmail.com}{sayyadtanvir88@gmail.com} \hspace{1cm}
-    \framebox{
-        \begin{minipage}{0.25\textwidth}
-            \faIcon{linkedin} \href{https://www.linkedin.com/in/tanvir-sayyad-a2155a22a/}{LinkedIn} \\
-            \faIcon{github} \href{https://github.com/TanvirSayyad}{GitHub}
-        \end{minipage}
-    }
+    \faIcon{phone} \href{tel:+918788900691}{+91 8788900691} \hspace{0.5cm}
+    \faIcon{envelope} \href{mailto:sayyadtanvir88@gmail.com}{sayyadtanvir88@gmail.com} \hspace{0.5cm}
+    \faIcon{linkedin} \href{https://www.linkedin.com/in/tanvir-sayyad-a2155a22a/}{LinkedIn} \hspace{0.5cm}
+    \faIcon{github} \href{https://github.com/TanvirSayyad}{GitHub} \\
+    \vspace{1mm}
+    Kadubeesanahalli, Bengaluru, India \hspace{0.5cm} \textit{Open to Relocation/Remote}
 \end{center}
 
-\vspace{1mm}
-\begin{center}
-    \faIcon{map-marker-alt} Kadubeesanahalli, Bengaluru 560103, India
-\end{center}
+\section*{\faIcon{user} Profile}
+Dynamic \textbf{Software Engineer} with expertise in \textbf{Java} and \textbf{Cloud Computing}, proficient in developing scalable applications using \textbf{Spring Boot} and \textbf{RESTful APIs}. Experienced in implementing \textbf{CI/CD pipelines} with \textbf{Azure DevOps}, and adept at utilizing version control systems like \textbf{Git} and \textbf{GitHub}. Strong problem-solving skills with a focus on \textbf{bug fixing}, \textbf{debugging}, optimizing application performance, and delivering high-quality code.
 
-\section*{\faIcon{user} Professional Profile}
-Currently working and gaining experience in backend application development and production support. Extensively involved in \textbf{API testing}, reviewing and debugging \textbf{Java code}. Skilled in resolving issues, debugging applications, and managing production support cases. Proficient in \textbf{SQL programming}, creating tables, views, procedures, and functions. Effective in using tools like \textbf{CDET} for bug tracking and resolution. Additionally, holds a \textbf{CCNA} certification with a strong foundation in \textbf{networking concepts}.
+\section*{\faIcon{building} Experience}
 
-\section*{\faIcon{building} Work Experience}
-
-\subsection*{Cisco Systems, Inc. (SEZ Unit Bangalore)\hfill Nov 2023 - current}
+\subsection*{Cisco Systems, Inc. (SEZ Unit Bangalore)\hfill Nov 2023 - Present}
 \textit{Software Engineer}
-
-\begin{itemize}[leftmargin=0.5cm, itemsep=1pt]
-    \item \textbf{Practiced on Switching, Routing, VLAN, IPv4, IPv6}.
-    \item \textbf{Completed CCNA training} and qualified \textbf{CCNA exam}.
-    \item Worked on a portal that generates reports on networking devices, including new features, contract details, and bugs, helping customers decide on software upgrades. It also enables contacting the TAC team and provides email alerts about upcoming software changes.
-    \item \textbf{Diagnose}, prioritize, and resolve \textbf{technical issues and bugs} reported by clients or internal teams.
-    \item Utilized various Cisco \textbf{Networking tools} to resolve technical issues and bugs.
-    \item \textbf{CDET Tool}: Used bug IDs to find and validate issues, and raised \textbf{JIRA tickets} for the development team.
-    \item \textbf{Bug Fixing Tools}: Worked with various tools to track and fix bugs.
-    \item Participate in the entire application lifecycle, focusing on \textbf{Coding and debugging}.
-    \item \textbf{Production Support}: Resolved issues and answered user questions through investigation, research, and debugging.
-    \item Developed and deployed \textbf{high-quality code}.
-    \item Integrated \textbf{Spring Boot} with various databases (e.g.MySQL, Oracle) to manage data persistence effectively.
-    \item Created and managed \textbf{RESTful APIs} for various internal and external applications, ensuring robust and secure communication between services.
-    \item Utilized tools such as \textbf{Postman} and \textbf{Swagger} for API testing and documentation, facilitating clear communication with front-end developers and stakeholders.
-    \item Worked on \textbf{Advanced Object-Oriented Design} and development principles.
-    \item Experience in \textbf{Unix/Linux-based development environment} is a plus.
-    \item Modules Involvement: Worked on \textbf{Coding}, \textbf{Testing}, and fixing \textbf{bugs} in \textbf{production support} cases.
-    \item \textbf{SQL Database Programming}: Created \textbf{tables}, \textbf{views}, \textbf{stored procedures}, and \textbf{functions} as needed.
-    \item \textbf{SQL Queries}: Wrote efficient SQL queries with necessary join conditions for good performance.
+\begin{itemize}[noitemsep, left=0pt]
+    \item Developed high-quality code for \textbf{Java} backend applications, focusing on production support and \textbf{bug fixing}.
+    \item Integrated \textbf{Spring Boot} with \textbf{MySQL} and \textbf{Oracle} for seamless data management.
+    \item Built and managed \textbf{CI/CD pipelines} using \textbf{Azure DevOps}.
+    \item Used \textbf{Cisco Networking} tools for issue diagnosis and \textbf{debugging}.
+    \item Collaborated in daily scrum meetings, managed user stories in \textbf{Jira}, and aligned work accordingly.
+    \item Worked in \textbf{Unix/Linux} environments and implemented \textbf{microservices architecture}.
+    \item Focused on \textbf{deployment} and integration of \textbf{microservices} to enhance application scalability and maintainability.
 \end{itemize}
-
-\newpage % Start a new page for the Technical Skills section
 
 \section*{\faIcon{cogs} Technical Skills}
-\begin{itemize}[label=\faIcon{check}, leftmargin=0.5cm, itemsep=3pt]
-    \item Core Java (\textbf{OOPS Concepts}, \textbf{Exception Handling}, \textbf{Collections}, \textbf{Multithreading}) 
-    \item MySQL, \textbf{Oracle} 
-    \item Advanced Java (\textbf{JSP}, \textbf{Servlet}, \textbf{JDBC}, \textbf{Spring Boot}) 
-    \item \textbf{Linux operating systems} 
-    \item Basic \textbf{Python} 
-    \item \textbf{Jira Software} 
-    \item \textbf{HTML}, \textbf{CSS}, \textbf{PHP}, \textbf{JavaScript}
-\end{itemize}
-
-\section*{\faIcon{wrench} Technical Tools}
-\begin{multicols}{4}
-    \begin{itemize}[label=\faIcon{toolbox}, left=0pt, labelsep=1em, itemsep=0.5em]
-        \item Eclipse IDE
-        \item Apache Tomcat
+\begin{multicols}{2}
+    \begin{itemize}[label=\faIcon{check}, left=0pt, itemsep=3pt]
+        \item \textbf{Core Java}
+        \item \textbf{Advanced Java}: JDBC, Spring Boot, Spring MVC
+        \item \textbf{Frameworks}: Hibernate
+        \item \textbf{API Testing}: Postman
+        \item \textbf{Database Management}: MySQL, Oracle
+        \item \textbf{Microservices Architecture}
     \end{itemize}
-    \begin{itemize}[label=\faIcon{toolbox}, left=0pt, labelsep=1em, itemsep=0.5em]
-        \item Visual Studio
-        \item Postman
-    \end{itemize}
-    \begin{itemize}[label=\faIcon{toolbox}, left=0pt, labelsep=1em, itemsep=0.5em]
-        \item JIRA
-        \item Todo Oracle
-    \end{itemize}
-    \begin{itemize}[label=\faIcon{toolbox}, left=0pt, labelsep=1em, itemsep=0.5em]
-        \item Packet Tracer
-        \item Putty
+    \begin{itemize}[label=\faIcon{check}, left=0pt, itemsep=3pt]
+        \item \textbf{Version Control}: Git, GitHub
+        \item \textbf{DevOps Tools}: Azure DevOps, CI/CD Pipelines
+        \item \textbf{Networking Tools}: Cisco Networking devices
+        \item \textbf{Linux Development Environments}
     \end{itemize}
 \end{multicols}
 
 \section*{\faIcon{certificate} Certifications}
-\begin{itemize}[label=\faIcon{certificate}, leftmargin=0.5cm, itemsep=3pt]
-    \item \textbf{Cisco Certified Network Associate (CCNA)} \hfill 2024
-    \item \textbf{Java Full Stack Development} \hfill 2023
+\begin{itemize}[label=\faIcon{certificate}, left=0pt, itemsep=3pt]
+ \item \textbf{Java Full Stack Development} \hfill 2023
+ \item \textbf{Certified Microsoft Azure DevOps}\hfill 2023
+    \item \textbf{Cisco Certified Network Associate (CCNA-Global)} \hfill 2024
+   
     \item \textbf{Linux Essentials English 0724} \hfill 2024
-    \item \textbf{Personality Development} \hfill 2024
-    \item \textbf{Cybersecurity And Cyber Threat Management} \hfill 2024
-    \item \textbf{Core PHP and Laravel} \hfill 2022
+    
 \end{itemize}
 
 \section*{\faIcon{graduation-cap} Education}
+\subsection*{B.E (CSE) - S.B Patil College of Engineering, Pune Maharashtra \hfill 2022}
+\textit{Percentage: 70.83\%}
 
-\subsection*{B.E (CSE) - S.B Patil College of Engineering Indapur Pune Maharashtra   \hfill2022}
-\textit{Percentage: 70.8\%}
-
-\section*{\faIcon{graduation-cap} Academic Project}
-
-\textbf{E-Pass Generation System using OCR Algorithm (2022)}
-
-The E-Pass Generation System manages all records of passes issued by the administration and provides online e-passes for people who need to travel for essential purposes.
-
-\textbf{Technologies Used:} \textbf{Java}, \textbf{MySQL}, \textbf{JDBC}, \textbf{JSP Server}.
-
-\section*{\faIcon{language} Languages}
-\begin{itemize}[label=\faIcon{globe}, leftmargin=0.5cm, itemsep=3pt]
-    \item English
-    \item Hindi
-    \item Marathi
-\end{itemize}
+\section*{\faIcon{wrench} Project}
+\textbf{E-Pass Generation System (2022)}: Developed an online system for e-pass generation managing essential travel records. \\
+\textbf{Technologies Used}: \textbf{Java}, \textbf{MySQL}, \textbf{JDBC}, \textbf{JSP Server}.
 
 \end{document}
